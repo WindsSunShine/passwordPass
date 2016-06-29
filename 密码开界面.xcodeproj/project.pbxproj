@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5FBBFA51D237BA8002B2276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FBBFA41D237BA8002B2276 /* main.m */; };
+		F5FBBFA81D237BA8002B2276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FBBFA71D237BA8002B2276 /* AppDelegate.m */; };
+		F5FBBFAB1D237BA8002B2276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FBBFAA1D237BA8002B2276 /* ViewController.m */; };
+		F5FBBFAE1D237BA8002B2276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FBBFAC1D237BA8002B2276 /* Main.storyboard */; };
+		F5FBBFB01D237BA8002B2276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FBBFAF1D237BA8002B2276 /* Assets.xcassets */; };
+		F5FBBFB31D237BA8002B2276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FBBFB11D237BA8002B2276 /* LaunchScreen.storyboard */; };
+		F5FBBFBE1D237BA8002B2276 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FBBFBD1D237BA8002B2276 /* _____Tests.m */; };
+		F5FBBFC91D237BA8002B2276 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FBBFC81D237BA8002B2276 /* _____UITests.m */; };
+		F5FBBFD81D237C1F002B2276 /* PasswordInputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FBBFD71D237C1F002B2276 /* PasswordInputWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5FBBFBA1D237BA8002B2276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5FBBF981D237BA8002B2276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5FBBF9F1D237BA8002B2276;
+			remoteInfo = "密码开界面";
+		};
+		F5FBBFC51D237BA8002B2276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5FBBF981D237BA8002B2276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5FBBF9F1D237BA8002B2276;
+			remoteInfo = "密码开界面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5FBBFA01D237BA8002B2276 /* 密码开界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "密码开界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FBBFA41D237BA8002B2276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5FBBFA61D237BA8002B2276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5FBBFA71D237BA8002B2276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5FBBFA91D237BA8002B2276 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5FBBFAA1D237BA8002B2276 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5FBBFAD1D237BA8002B2276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5FBBFAF1D237BA8002B2276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5FBBFB21D237BA8002B2276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5FBBFB41D237BA8002B2276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5FBBFB91D237BA8002B2276 /* 密码开界面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "密码开界面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FBBFBD1D237BA8002B2276 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		F5FBBFBF1D237BA8002B2276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5FBBFC41D237BA8002B2276 /* 密码开界面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "密码开界面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FBBFC81D237BA8002B2276 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		F5FBBFCA1D237BA8002B2276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5FBBFD61D237C1F002B2276 /* PasswordInputWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordInputWindow.h; sourceTree = "<group>"; };
+		F5FBBFD71D237C1F002B2276 /* PasswordInputWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordInputWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5FBBF9D1D237BA8002B2276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FBBFB61D237BA8002B2276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FBBFC11D237BA8002B2276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5FBBF971D237BA8002B2276 = {
+			isa = PBXGroup;
+			children = (
+				F5FBBFA21D237BA8002B2276 /* 密码开界面 */,
+				F5FBBFBC1D237BA8002B2276 /* 密码开界面Tests */,
+				F5FBBFC71D237BA8002B2276 /* 密码开界面UITests */,
+				F5FBBFA11D237BA8002B2276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5FBBFA11D237BA8002B2276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5FBBFA01D237BA8002B2276 /* 密码开界面.app */,
+				F5FBBFB91D237BA8002B2276 /* 密码开界面Tests.xctest */,
+				F5FBBFC41D237BA8002B2276 /* 密码开界面UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5FBBFA21D237BA8002B2276 /* 密码开界面 */ = {
+			isa = PBXGroup;
+			children = (
+				F5FBBFA61D237BA8002B2276 /* AppDelegate.h */,
+				F5FBBFA71D237BA8002B2276 /* AppDelegate.m */,
+				F5FBBFA91D237BA8002B2276 /* ViewController.h */,
+				F5FBBFAA1D237BA8002B2276 /* ViewController.m */,
+				F5FBBFD61D237C1F002B2276 /* PasswordInputWindow.h */,
+				F5FBBFD71D237C1F002B2276 /* PasswordInputWindow.m */,
+				F5FBBFAC1D237BA8002B2276 /* Main.storyboard */,
+				F5FBBFAF1D237BA8002B2276 /* Assets.xcassets */,
+				F5FBBFB11D237BA8002B2276 /* LaunchScreen.storyboard */,
+				F5FBBFB41D237BA8002B2276 /* Info.plist */,
+				F5FBBFA31D237BA8002B2276 /* Supporting Files */,
+			);
+			path = "密码开界面";
+			sourceTree = "<group>";
+		};
+		F5FBBFA31D237BA8002B2276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5FBBFA41D237BA8002B2276 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5FBBFBC1D237BA8002B2276 /* 密码开界面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5FBBFBD1D237BA8002B2276 /* _____Tests.m */,
+				F5FBBFBF1D237BA8002B2276 /* Info.plist */,
+			);
+			path = "密码开界面Tests";
+			sourceTree = "<group>";
+		};
+		F5FBBFC71D237BA8002B2276 /* 密码开界面UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5FBBFC81D237BA8002B2276 /* _____UITests.m */,
+				F5FBBFCA1D237BA8002B2276 /* Info.plist */,
+			);
+			path = "密码开界面UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5FBBF9F1D237BA8002B2276 /* 密码开界面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5FBBFCD1D237BA8002B2276 /* Build configuration list for PBXNativeTarget "密码开界面" */;
+			buildPhases = (
+				F5FBBF9C1D237BA8002B2276 /* Sources */,
+				F5FBBF9D1D237BA8002B2276 /* Frameworks */,
+				F5FBBF9E1D237BA8002B2276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "密码开界面";
+			productName = "密码开界面";
+			productReference = F5FBBFA01D237BA8002B2276 /* 密码开界面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5FBBFB81D237BA8002B2276 /* 密码开界面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5FBBFD01D237BA8002B2276 /* Build configuration list for PBXNativeTarget "密码开界面Tests" */;
+			buildPhases = (
+				F5FBBFB51D237BA8002B2276 /* Sources */,
+				F5FBBFB61D237BA8002B2276 /* Frameworks */,
+				F5FBBFB71D237BA8002B2276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5FBBFBB1D237BA8002B2276 /* PBXTargetDependency */,
+			);
+			name = "密码开界面Tests";
+			productName = "密码开界面Tests";
+			productReference = F5FBBFB91D237BA8002B2276 /* 密码开界面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5FBBFC31D237BA8002B2276 /* 密码开界面UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5FBBFD31D237BA8002B2276 /* Build configuration list for PBXNativeTarget "密码开界面UITests" */;
+			buildPhases = (
+				F5FBBFC01D237BA8002B2276 /* Sources */,
+				F5FBBFC11D237BA8002B2276 /* Frameworks */,
+				F5FBBFC21D237BA8002B2276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5FBBFC61D237BA8002B2276 /* PBXTargetDependency */,
+			);
+			name = "密码开界面UITests";
+			productName = "密码开界面UITests";
+			productReference = F5FBBFC41D237BA8002B2276 /* 密码开界面UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5FBBF981D237BA8002B2276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张建军";
+				TargetAttributes = {
+					F5FBBF9F1D237BA8002B2276 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F5FBBFB81D237BA8002B2276 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F5FBBF9F1D237BA8002B2276;
+					};
+					F5FBBFC31D237BA8002B2276 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F5FBBF9F1D237BA8002B2276;
+					};
+				};
+			};
+			buildConfigurationList = F5FBBF9B1D237BA8002B2276 /* Build configuration list for PBXProject "密码开界面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5FBBF971D237BA8002B2276;
+			productRefGroup = F5FBBFA11D237BA8002B2276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5FBBF9F1D237BA8002B2276 /* 密码开界面 */,
+				F5FBBFB81D237BA8002B2276 /* 密码开界面Tests */,
+				F5FBBFC31D237BA8002B2276 /* 密码开界面UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5FBBF9E1D237BA8002B2276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FBBFB31D237BA8002B2276 /* LaunchScreen.storyboard in Resources */,
+				F5FBBFB01D237BA8002B2276 /* Assets.xcassets in Resources */,
+				F5FBBFAE1D237BA8002B2276 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FBBFB71D237BA8002B2276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FBBFC21D237BA8002B2276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5FBBF9C1D237BA8002B2276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FBBFAB1D237BA8002B2276 /* ViewController.m in Sources */,
+				F5FBBFA81D237BA8002B2276 /* AppDelegate.m in Sources */,
+				F5FBBFA51D237BA8002B2276 /* main.m in Sources */,
+				F5FBBFD81D237C1F002B2276 /* PasswordInputWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FBBFB51D237BA8002B2276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FBBFBE1D237BA8002B2276 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FBBFC01D237BA8002B2276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FBBFC91D237BA8002B2276 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5FBBFBB1D237BA8002B2276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5FBBF9F1D237BA8002B2276 /* 密码开界面 */;
+			targetProxy = F5FBBFBA1D237BA8002B2276 /* PBXContainerItemProxy */;
+		};
+		F5FBBFC61D237BA8002B2276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5FBBF9F1D237BA8002B2276 /* 密码开界面 */;
+			targetProxy = F5FBBFC51D237BA8002B2276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5FBBFAC1D237BA8002B2276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5FBBFAD1D237BA8002B2276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5FBBFB11D237BA8002B2276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5FBBFB21D237BA8002B2276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5FBBFCB1D237BA8002B2276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5FBBFCC1D237BA8002B2276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5FBBFCE1D237BA8002B2276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "密码开界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangjianjun.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5FBBFCF1D237BA8002B2276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "密码开界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangjianjun.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5FBBFD11D237BA8002B2276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "密码开界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangjianjun.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/密码开界面.app/密码开界面";
+			};
+			name = Debug;
+		};
+		F5FBBFD21D237BA8002B2276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "密码开界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangjianjun.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/密码开界面.app/密码开界面";
+			};
+			name = Release;
+		};
+		F5FBBFD41D237BA8002B2276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "密码开界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangjianjun.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "密码开界面";
+			};
+			name = Debug;
+		};
+		F5FBBFD51D237BA8002B2276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "密码开界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangjianjun.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "密码开界面";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5FBBF9B1D237BA8002B2276 /* Build configuration list for PBXProject "密码开界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FBBFCB1D237BA8002B2276 /* Debug */,
+				F5FBBFCC1D237BA8002B2276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5FBBFCD1D237BA8002B2276 /* Build configuration list for PBXNativeTarget "密码开界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FBBFCE1D237BA8002B2276 /* Debug */,
+				F5FBBFCF1D237BA8002B2276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5FBBFD01D237BA8002B2276 /* Build configuration list for PBXNativeTarget "密码开界面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FBBFD11D237BA8002B2276 /* Debug */,
+				F5FBBFD21D237BA8002B2276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5FBBFD31D237BA8002B2276 /* Build configuration list for PBXNativeTarget "密码开界面UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FBBFD41D237BA8002B2276 /* Debug */,
+				F5FBBFD51D237BA8002B2276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5FBBF981D237BA8002B2276 /* Project object */;
+}
